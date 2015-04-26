@@ -1,5 +1,6 @@
 package trytry;
 
+
 public class Try1 {
 
 	public static void main(String[] args) {
@@ -11,5 +12,14 @@ public class Try1 {
 	public static String renketsu(String first, String second){
 		String renketsu = first + second;
 		return renketsu;
+	}
+
+	public static int addition(int a, int b) throws IllegalArgumentException{
+
+		if(a < 0 || b < 0){
+			throw new IllegalArgumentException();
+		}
+
+		return a + b;
 	}
 }
