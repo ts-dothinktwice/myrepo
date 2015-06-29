@@ -1,2 +1,8 @@
 .metadata/
-RemoteSystemsTempFiles/
+.git/
+.recommenders/
+try/.classpath
+.djunitplugin
+.project
+jcoverage.ser
+try/bin/

@@ -20,6 +20,9 @@ public class Try1 {
 			throw new IllegalArgumentException();
 		}
 
-		return a + b;
+		int result = a + b;
+
+		System.out.println("result=" + result);
+		return result;
 	}
 }
